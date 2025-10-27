@@ -1,0 +1,67 @@
+body {
+    font-family: "Noto Sans KR", sans-serif;
+    background: linear-gradient(135deg, #c8e6c9, #a5d6a7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.quiz-container {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 480px;
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #2e7d32;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: #558b2f;
+    margin-bottom: 20px;
+}
+
+.question {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+.options button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background-color: #81c784;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.options button:hover {
+    background-color: #66bb6a;
+}
+
+#next-btn {
+    margin-top: 20px;
+    background-color: #43a047;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+#result {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
